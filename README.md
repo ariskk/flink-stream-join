@@ -24,5 +24,5 @@ def join(users: DataStream[User], tweets: DataStream[Tweet]): DataStream[TweetVi
 }
 ```
 
-Any solution is fare game, assuming it takes into account `users` and `tweets` can arrive in any order.
+Any solution is fair game, assuming it takes into account `users` and `tweets` can arrive in any order.
 
